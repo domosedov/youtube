@@ -1,0 +1,20 @@
+{
+  "name": "tailwindcss-crash-course",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "css:generate": "npx postcss ./src/tailwind.css -o ./dist/style.css",
+    "css:build": "NODE_ENV=production npx postcss ./src/tailwind.css -o ./dist/style.css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.0.2",
+    "postcss": "^8.1.9",
+    "postcss-cli": "^8.3.0",
+    "tailwindcss": "^2.0.1"
+  }
+}
